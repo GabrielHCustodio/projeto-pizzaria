@@ -26,11 +26,7 @@ const Products = ({ name }) => {
       <div className={styles.container_product}>
         {pizzas.map((pizza) => (
           <Product
-            id={pizza.id}
-            name={pizza.name}
-            makings={pizza.makings}
-            value={pizza.value}
-            img={pizza.img}
+            pizza={pizza}
             key={pizza.id}
           />
         ))}

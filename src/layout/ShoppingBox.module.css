@@ -1,0 +1,63 @@
+.shopping {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid #222;
+    border-radius: 10px;
+    margin-bottom: 2%;
+    padding: 2%;
+}
+
+.shopping img {
+    width: 240px;
+    height: 120px;
+    border-radius: 10px;
+}
+
+.shopping_details {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.shopping_details h4 {
+    font-size: 18px;
+    width: 200px;
+}
+
+.shopping_details p {
+    color: #7a7a7a;
+}
+
+.shopping_details p span {
+    font-weight: bold;
+}
+
+.shopping_details p input {
+    width: 40px;
+    border: 1px solid #222;
+    border-radius: 10px;
+    outline: none;
+    text-align: center;
+    margin-left: 5px;
+}
+
+.shopping_details button {
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: transparent;
+}
+
+.shopping_details button svg {
+    font-size: 22px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.shopping_details button svg:hover {
+    color: #ff0841;
+}

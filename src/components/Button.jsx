@@ -2,9 +2,9 @@ import React from 'react';
 
 import styles from "./Button.module.css"
 
-const Button = ({text}) => {
+const Button = ({text, handleSubmit}) => {
     return ( 
-        <button className={styles.btn}>{text}</button>
+        <button className={styles.btn} onClick={handleSubmit}>{text}</button>
      );
 }
  

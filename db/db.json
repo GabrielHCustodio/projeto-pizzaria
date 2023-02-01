@@ -1,55 +1,73 @@
 {
-    "products": {
-        "pizzas": [
-            {
-                "name": "Margherita",
-                "makings": "Queijo mussarela, tomate, molho de tomate e manjericão",
-                "value": 45.90,
-                "img": "margherita",
-                "id": 1
-            },
-            {
-                "name": "Quatro queijos",
-                "makings": "Queijos mussarela, provolone, gorgonzola, parmesão e molho de tomate",
-                "value": 45.90,
-                "img": "quatro-queijos",
-                "id": 2
-            },
-            {
-                "name": "Frango com catupiry",
-                "makings": "Frango, catupiry, queijo mussarela, molho de tomate e orégano",
-                "value": 45.90,
-                "img": "frango-catupiry",
-                "id": 3
-            },
-            {
-                "name": "Lombo Canadense",
-                "makings": "Lombo canadense, queijo mussarela e molho de tomate",
-                "value": 45.90,
-                "img": "lombo-canadense",
-                "id": 4
-            },
-            {
-                "name": "Pepperoni",
-                "makings": "Pepperone, queijo mussarela e molho de tomate",
-                "value": 45.90,
-                "img": "pepperoni",
-                "id": 5
-            },
-            {
-                "name": "Portuguesa",
-                "makings": "Presunto, ovo, queijo mussarela, tomate, cebola, azeitonas e molho de tomate",
-                "value": 45.90,
-                "img": "portuguesa",
-                "id": 5
-            },
-            {
-                "name": "Rúcula e tomate seco",
-                "makings": "Rúcula, tomate seco, queijo mussarela, azeitonas e molho de tomate",
-                "value": 45.90,
-                "img": "rucula",
-                "id": 5
-            }
-        ]
+  "products": {
+    "pizzas": [
+      {
+        "name": "Margherita",
+        "makings": "Queijo mussarela, tomate, molho de tomate e manjericão",
+        "value": 45.9,
+        "img": "margherita",
+        "id": 1
+      },
+      {
+        "name": "Quatro queijos",
+        "makings": "Queijos mussarela, provolone, gorgonzola, parmesão e molho de tomate",
+        "value": 45.9,
+        "img": "quatro-queijos",
+        "id": 2
+      },
+      {
+        "name": "Frango com catupiry",
+        "makings": "Frango, catupiry, queijo mussarela, molho de tomate e orégano",
+        "value": 45.9,
+        "img": "frango-catupiry",
+        "id": 3
+      },
+      {
+        "name": "Lombo Canadense",
+        "makings": "Lombo canadense, queijo mussarela e molho de tomate",
+        "value": 45.9,
+        "img": "lombo-canadense",
+        "id": 4
+      },
+      {
+        "name": "Pepperoni",
+        "makings": "Pepperone, queijo mussarela e molho de tomate",
+        "value": 45.9,
+        "img": "pepperoni",
+        "id": 5
+      },
+      {
+        "name": "Portuguesa",
+        "makings": "Presunto, ovo, queijo mussarela, tomate, cebola, azeitonas e molho de tomate",
+        "value": 45.9,
+        "img": "portuguesa",
+        "id": 6
+      },
+      {
+        "name": "Rúcula e tomate seco",
+        "makings": "Rúcula, tomate seco, queijo mussarela, azeitonas e molho de tomate",
+        "value": 45.9,
+        "img": "rucula",
+        "id": 7
+      }
+    ]
+  },
+  "shopping": [
+    {
+      "name": "Margherita",
+      "makings": "Queijo mussarela, tomate, molho de tomate e manjericão",
+      "value": 45.9,
+      "img": "margherita",
+      "id": 1,
+      "quantity": 1
+    },
+    {
+      "name": "Frango com catupiry",
+      "makings": "Frango, catupiry, queijo mussarela, molho de tomate e orégano",
+      "value": 45.9,
+      "img": "frango-catupiry",
+      "id": 3,
+      "quantity": 1
     }
+  ]
 }
